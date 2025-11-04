@@ -1,0 +1,62 @@
+.assignments-container {
+  max-width: 750px;
+  margin: 50px auto 0 auto;
+  background: #fff;
+  padding: 36px 36px 24px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(102,126,234,0.13);
+}
+
+.assignments-container h2 {
+  color: #343a40;
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: left;
+  letter-spacing: 0.02em;
+}
+
+.assignments-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.assignments-list li {
+  background: #f4f8ff;
+  border-radius: 14px;
+  margin-bottom: 18px;
+  padding: 22px 30px 18px;
+  box-shadow: 0 4px 14px rgba(102,126,234,0.1);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.16s;
+  font-size: 1.13rem;
+  font-weight: 600;
+  color: #3a3a63;
+}
+
+.assignments-list li:hover {
+  background: linear-gradient(135deg, #85c8ff11 0%, #667eea22 100%);
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 8px 30px #7b91ff35;
+}
+
+.assignment-title {
+  font-weight: 900;
+  color: #2643a8;
+  margin-bottom: 8px;
+  font-size: 1.16rem;
+}
+
+.assignment-desc {
+  color: #4862ad;
+  margin-bottom: 9px;
+  font-weight: 500;
+  font-size: 1.02rem;
+}
+
+.assignment-due {
+  color: #666e8a;
+  font-size: 0.92rem;
+  font-weight: 500;
+}
